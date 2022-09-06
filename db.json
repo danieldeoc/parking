@@ -1,0 +1,153 @@
+{
+  "veiculosEstacionados": [
+    {
+      "data": "2022-09-06",
+      "hora": "10:17",
+      "veiculo": "Celta",
+      "placa": "HJK-3995",
+      "saida": "2022-09-06",
+      "horasaida": "14:14",
+      "valor": "19.75",
+      "noPatio": false,
+      "id": 1
+    },
+    {
+      "data": "2022-09-06",
+      "hora": "10:20",
+      "veiculo": "Golf",
+      "placa": "EUH-5000",
+      "saida": "2022-09-06",
+      "horasaida": "12:54",
+      "valor": "12.83",
+      "noPatio": false,
+      "id": 2
+    },
+    {
+      "data": "2022-09-06",
+      "hora": "10:25",
+      "veiculo": "Fiat Pálio",
+      "placa": "AWR-3995",
+      "saida": false,
+      "horasaida": false,
+      "valor": "0",
+      "noPatio": true,
+      "id": 3
+    },
+    {
+      "data": "2022-09-06",
+      "hora": "11:03",
+      "veiculo": "Cobalt",
+      "placa": "BBR-9090",
+      "saida": "2022-09-06",
+      "horasaida": "12:53",
+      "valor": "9.17",
+      "noPatio": false,
+      "id": 4
+    },
+    {
+      "data": "2022-09-06",
+      "hora": "09:04",
+      "veiculo": "Cobra",
+      "placa": "000-0000",
+      "saida": "2022-09-06",
+      "horasaida": "12:01",
+      "valor": "14.75",
+      "noPatio": false,
+      "id": 5
+    },
+    {
+      "data": "2022-09-06",
+      "hora": "00:01",
+      "veiculo": "LIMO",
+      "placa": "LLM-0000",
+      "saida": "2022-09-06",
+      "horasaida": "12:33",
+      "valor": "62.67",
+      "noPatio": false,
+      "id": 6
+    },
+    {
+      "data": "2022-09-06",
+      "hora": "00:53",
+      "veiculo": "Astra",
+      "placa": "CCC-0000",
+      "saida": "2022-09-06",
+      "horasaida": "12:53",
+      "valor": "60.00",
+      "noPatio": false,
+      "id": 7
+    },
+    {
+      "data": "2022-09-06",
+      "hora": "13:20",
+      "veiculo": "Celta",
+      "placa": "HLR-9090",
+      "saida": false,
+      "horasaida": false,
+      "valor": "0",
+      "noPatio": true,
+      "id": 8
+    },
+    {
+      "data": "2022-09-06",
+      "hora": "13:56",
+      "veiculo": "Pálio",
+      "placa": "LKM-0909",
+      "saida": "2022-09-06",
+      "horasaida": "14:15",
+      "valor": "1.58",
+      "noPatio": false,
+      "id": 9
+    },
+    {
+      "data": "2022-09-06",
+      "hora": "14:15",
+      "veiculo": "TESTE",
+      "placa": "KLO-0909",
+      "saida": false,
+      "horasaida": false,
+      "valor": "0",
+      "noPatio": true,
+      "id": 10
+    },
+    {
+      "data": "2022-09-06",
+      "hora": "10:21",
+      "veiculo": "TIPO",
+      "placa": "LKO-9090",
+      "saida": "2022-09-06",
+      "horasaida": "14:22",
+      "valor": "20.08",
+      "noPatio": false,
+      "id": 11
+    },
+    {
+      "data": "2022-09-06",
+      "hora": "15:30",
+      "veiculo": "asdad",
+      "placa": "sadas",
+      "saida": false,
+      "horasaida": false,
+      "valor": "0",
+      "noPatio": true,
+      "id": 12
+    },
+    {
+      "data": "2022-09-06",
+      "hora": "15:32",
+      "veiculo": "asds",
+      "placa": "asd",
+      "saida": false,
+      "horasaida": false,
+      "valor": "0",
+      "noPatio": true,
+      "id": 13
+    }
+  ],
+  "settings": [
+    {
+      "preco": 5
+    }
+  ],
+  "veiculos": []
+}

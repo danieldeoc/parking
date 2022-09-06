@@ -1,0 +1,210 @@
+
+/* CORES */
+$green1: #3D550C;
+$green2: #81B622;
+$green3: #ECF87F;
+$green4: #59981A;
+
+$gray: #524949;
+$gray2: #ab9999;
+
+/* BORDAS */
+$borderRadius: 8px;
+
+/* SOMBRAS */
+$shadow: 0 4px 9px 2px rgba(0,0,0,0.05);
+
+
+
+*{    
+    font-family: 'Lato', sans-serif; 
+    outline: none; 
+    list-style: none;
+    margin: 0;
+    padding: 0;}
+
+html{ background-color: #f2f2f2;}
+
+body {
+  margin: 0;  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+/* #################### */
+/* #################### */
+/* #################### */
+.boxForm{ 
+      max-width: 450px; 
+      margin: 1rem auto; 
+      background-color: #fff;
+      border-radius: $borderRadius;
+      box-sizing: border-box;
+      -webkit-box-shadow: $shadow;
+      box-shadow: $shadow;
+}
+
+/* ################### */
+/* INPUT */
+/* ################### */
+label{ 
+    display: block; 
+    padding: 2px 0 8px;
+    font-weight: bold;
+    color: $gray;
+    font-size: 14px;
+}
+label input,
+label select{ 
+    font-size: 16px;
+    color: $gray;
+    display: block; 
+    width: 100%; 
+    box-sizing: border-box;
+    padding:16px;
+    border-radius: 8px;
+    border:1px solid $gray2;
+    background-color: #fff;}
+
+label input:focus{
+    color: $green1;
+    border-color: $green2;
+}
+
+
+/*  ############################### */
+/*  BOX */
+/*  ############################### */
+.box{ padding: 16px;}
+
+/*  ############################### */
+/*  BUTTON */
+/*  ############################### */
+.btn {
+  display: block;
+  padding: 16px;
+  text-transform: uppercase;
+  cursor:pointer;
+  background-color:$green1;
+  border-radius: 8px;
+  color: #fff;
+  border:none;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 4px;
+  
+
+  -webkit-box-shadow: $shadow;
+   box-shadow:$shadow;
+}
+
+.btn:hover{
+    background-color: $green2;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+
+
+
+/* ################### */
+/* MSGS */
+/* ################### */
+.messager{ 
+    position:fixed; 
+    border-radius: 8px;
+    padding: 16px;
+    width: 90%;
+    left: 5%;
+    bottom: 5%;
+    
+    background-color: $gray;
+    opacity: 0.9;
+    box-sizing: border-box;
+    font-weight: bold;
+    -webkit-box-shadow: $shadow;
+    box-shadow: $shadow;
+    display: none;    
+}
+
+.messager.visible{ display: block;}
+
+.messager.success{ 
+    background-color: $green4; color: #fff;}
+
+
+/* ######################## */
+/* Navigator */
+/* ######################## */
+.navigator{ 
+    max-width: 450px;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.navigator a{ 
+    display: inline-block;
+    width: 40%; padding: 16px;
+    text-align: center;
+    background-color: $green1;
+    color: #fff;
+    text-decoration: none;
+    border:1px solid #e5e5e5;
+    
+    margin: 0 4px;
+    border-radius: 8px;
+}
+
+.navigator a:hover{
+    background-color: $green2;
+}
+
+
+/* ########################
+LIST DE VEÍCULOS
+######################## */
+
+.veiculosLista ul{ list-style: none; padding: 0; margin: 0; }
+.veiculosLista li{ padding: 8px 0; border-bottom: 1px solid #e5e5e5;}
+.veiculosLista li span{ 
+    display: inline-block; 
+    padding: 0 4px;
+  font-size: 12px; 
+  color: $gray;
+  vertical-align: middle; }
+
+
+.veiculosLista li span.col1{ width: 17%;}
+.veiculosLista li span.col2{ width: 17%;}
+.veiculosLista li span.col3{ width: 17%;}
+.veiculosLista li span.col4{ width: 15%;}
+.veiculosLista li span.col5{ width: 7%;}
+
+.veiculosLista li span.col12{ width: 17%;}
+
+.veiculosLista li span.col21{ width: 17%;}
+.veiculosLista li span.col31{ width: 17%;}
+.veiculosLista li span.col41{ width: 15%;}
+
+.veiculosLista li span.col51{ width: 15%;}
+.veiculosLista li span.col61{ width: 7%; text-align: right;}
+
+
+h1{ color: $green1; font-size: 24px; font-weight: bold; margin: 0 0 1rem;}
+.capacity{
+    font-size: 12px; color: $gray; display: block;
+    padding: 8px 0;
+}
+/*
+  03045E
+  0077B6
+  00B4D8
+  90E0EF
+  CAF0F8
+
+*/
+
